@@ -3,6 +3,7 @@ import cv2
 from PIL import Image, ImageTk
 window = Tk()
 window.title('placeholder name, change this later')
+window.resizable(width=False,height=False)
 window.geometry('650x700')
 label = Label(window)
 label.grid(row=0,column=0)
